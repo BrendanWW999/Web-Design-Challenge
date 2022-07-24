@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  background-color: rgb(233, 248, 24);
+  color: rgb(88, 17, 201);
+}
+
+/* body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+} */
+
+/* h3 {
+  color: orange;
+} */
+
+/* img {
+  box-shadow: 10px 10px 5px black;
+}
+
+section {
+  background-color: #000;
+} */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 19px;
+  line-height: 150%;
+  color: #333;
+  background: #c6dde6;
+}
+
+/* ul {
+  border-style: solid;
+  color: rgb(183, 121, 121);
+} */
