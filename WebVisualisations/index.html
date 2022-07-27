@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Brendan's Web-Design-Challenge</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 <body>
     <h1>Brendan's Web-Design-Challenge !</h1>
@@ -14,41 +14,62 @@
     <br>
     <nav class="navbar navbar-expand-lg bg--dark", style="background-color: #5dec70;", font-size: 18px;>
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Index</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Index</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Visualisations
+                    Plots
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Latitude vs Cloudiness</a></li>
-                  <li><a class="dropdown-item" href="#">Latitude vs Humidity</a></li>
-                  <li><a class="dropdown-item" href="#">Latitude vs Temperature</a></li>
-                  <li><a class="dropdown-item" href="#">Latitude vs Windiness</a></li>
+                  <li><a class="dropdown-item" href="Latitude vs Cloudiness.html">Latitude vs Cloudiness</a></li>
+                  <li><a class="dropdown-item" href="Latitude vs Humidity.html">Latitude vs Humidity</a></li>
+                  <li><a class="dropdown-item" href="Latitude vs Temperature.html">Latitude vs Temperature</a></li>
+                  <li><a class="dropdown-item" href="Latitude vs Windiness.html">Latitude vs Windiness</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Comparisons</a>
+                <a class="nav-link" href="Comparisons.html">Comparisons</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Data</a>
+                <a class="nav-link" href="Data.html">Data</a>
               </li>
             </ul>
           </div>
         </div>
+        <select id="nav-select">
+          <option value="Index">Index</option>
+          <option value="Plots">Plots</option>
+          <option value="Comparisons">Comparisons</option>
+          <option value="Data">Data</option>
+        </select>
     </nav>
     <br>
     <br>
   <p>For this Project I'll be creating a visualisation dashboard website using visualisations I've created in a past assignment. In building this dashboard, I'll create individual pages 
      for each plot and a means by which we can navigate between them. These pages will contain the visualisations and their corresponding explanations. 
      I'll also have a Home page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.</p>
+  <br>
+   
+  <a href= "Latitude vs Temperature.html">
+  <img src="Resources/Lat vs Temp.jpg" alt="Lat vs Temp" width = "10%" height="auto"> Latitude vs Temperature</a>
+  <br>
+  <br>
+  <a href="Latitude vs Cloudiness.html">
+  <img src="Resources/Lat vs Cloud.jpg" alt="Lat vs Cloud" width = "10%" height="auto"> Latitude vs Cloudiness</a>
+  <br>
+  <br>
+  <a href="Latitude vs Windiness.html">
+  <img src="Resources/Lat vs Wind.jpg" alt="Lat vs Wind" width = "10%" height="auto"> Latitude vs Windiness</a>
+  <br>
+  <br>
+  <a href="Latitude vs Humidity.html">
+  <img src="Resources/Lat vs Hum.jpg" alt="Lat vs Hum" width = "10%" height="auto"> Latitude vs Humidity</a>
 
-</body>
+  </body>
 </html> 
